@@ -1,0 +1,29 @@
+body{
+    background-color: #c6cbd4;
+}
+h1.a,.b{
+    width: 150px;
+    font-family: cursive;
+    font-weight: normal;
+    border-image: 3px double black;
+    text-align: center;
+}
+p{
+    width: 400px;
+    text-align: justify;
+}
+.one{
+    width: 46%;
+    float: right
+}
+.two{
+    width: 46%;
+    
+}
+ol{
+    list-style-type: persian;
+    list-style-position: inside
+}
+ul{
+    list-style-type: circle
+}

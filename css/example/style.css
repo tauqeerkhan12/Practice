@@ -1,0 +1,55 @@
+h1{
+    background-color: hsl(39,30%,30%);
+    /*opacity: 0.6;*/
+    color:red;
+    font-weight: normal;
+    font-style: oblique;
+    
+}
+body{
+
+}
+p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    text-shadow: 2px 2px 2px red
+}
+@font-face {
+    font-family: 'style1';
+    src: url('fonts/style1.ttf')
+}
+body{
+    font-size: 16px
+}
+td{
+    vertical-align: text-top
+}
+a:link{
+    color: red;
+    font-size: 18px
+}
+a:visited{
+    color: blue;
+    font-size: 13px
+}
+a:hover{
+    color: wheat;
+    background-color: black
+}
+a:active{
+    color: black;
+    background-color: wheat
+}
+h1:focus{
+    background-color: red;
+    color: blue;
+    font-size: 40px;
+    text-align: center
+}
+}
+input:focus{
+    font-size: 60px;
+    color: red
+}
