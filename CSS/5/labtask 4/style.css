@@ -1,0 +1,45 @@
+div.second{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding: 5px;
+    margin: 50px auto;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    border: thin solid black; 
+    margin: 20px auto;
+}
+body{
+    background-color: lightgray
+}
+div.first{
+    border: 2px double black;
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+}
+li{
+    display: inline;
+    margin-right: 60px;
+    
+    
+}
+div.third{
+    border-width: 2px 0px;
+    border-style: solid;
+    text-align: center;
+
+}
+img{
+    margin-left: 50px 
+}
+.img1{
+    margin: 30px 60px;
+}
+iframe{
+    text-align: center;
+    margin: 0 auto;
+    border: 0px ;
+}

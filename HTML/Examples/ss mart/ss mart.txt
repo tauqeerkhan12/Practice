@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>www.S.S Mart-home page</title>
+	</head>
+	<body>
+		<h1>S.S Mart</h1>
+		<blockquote>The perfect shoping soluion</blockquote>
+		<img src="mark.html">
+		<h2>New Arrivals</h2>
+		<p><em>prices of these items are valid till 31 dec</em></p>
+		<ul>
+		<li><a href="vneck.html">4 v-neck T-shirts<a> <ul>was<s>2000</s> 50% discount ,now 1000</ul></li>
+		<hr />
+		<li><a href="jeans.html">pair of 5 jeans<a> <ul>was <s>2500</s> 50% discount ,now 1250</ul></li>
+		<hr />
+		<li> <a href="shalwar kameez.html">3 white plain shalwar kameez<a> <ul>was <s>5000</s> 50% discount ,now 2500</ul></li>
+		<hr />
+		<li><a href="watches.html">2 golden-silver Rolex watches<a> <ul>was <s>1200</s> 50% discount ,now 600</ul></li>
+		</ul>
+
+	</body>
+</html>
