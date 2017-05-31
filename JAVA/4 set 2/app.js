@@ -219,4 +219,76 @@
 
 
 // Assignment 16;
-//
+//16. Write a program to repeatedly print the value of the variable num which is input by user. Value should be decreasing by 0.5 each time, as long as x Value remains positive.   
+
+// var userInput = prompt("Enter the value you want to decrease...");
+// for (var i = userInput; i > 0; i-0.5) {
+//     document.write(i + ", ");
+// }
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+
+// Assignment 17;
+//17. The even/odd reporter Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even"). 
+
+// for (var i = 0; i <= 20; i++) {
+//     var check = i % 2;
+//     if (check === 0) {
+//         document.write(i + " is <b>Even</b>.<br />")
+//     }
+//     else {
+//         document.write(i + " is <b>Odd</b>.<br />")
+//     }
+// }
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+
+// Assignment 18;
+//19. Write a program that will write out a wedge of stars. The user will enter the initial number of stars, and the program will write out lines of stars where each line has one few star than the previous line. Initial number of stars: 7 
+
+// var userInput = prompt("Enter number of stars you want to print...")
+// for (var i = userInput; i >= 1; i--) {
+//     for (var j = i; j >= 1; j--) {
+//         document.write("*");
+//     }
+//     document.write("<br />")
+// }
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+
+// Assignment 19;
+//20. Write a program to create the following patterns in your browser. Take number of lines as an input.  
+
+// var userInput = prompt("Enter number of lines of stars you want to print...");
+// document.write("(a.)<br />");
+// for (var i = 0; i < userInput; i++) {
+//     for (var j = 0; j < userInput; j++) {
+//          document.write("*");
+//     }
+//     document.write("<br />")
+// }
+
+
+// document.write("(b.)<br />");
+// // var userInput = prompt("Enter number of stars you want to print...")
+// for (var i = 1; i <= userInput; i++) {
+//     for (var j = i; j >= 1; j--) {
+//         document.write("*");
+//     }
+//     document.write("<br />")
+// }
+
+
+// document.write("(c.)<br />");
+// // var userInput = prompt("Enter number of stars you want to print...")
+// for (var i = userInput; i >= 1; i--) {
+//     for (var j = i; j >= 1; j--) {
+//         document.write("*");
+//     }
+//     document.write("<br />")
+// }
+// //-----------//------------------//-------------------------//---------------------------//----------------------------//----------
+//                                                 // THE END
