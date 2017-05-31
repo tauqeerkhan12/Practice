@@ -102,4 +102,73 @@
 //----------------------------------------------------------------------------------------------------------------------------
 
 //Assignment: 10
-//
+//15. Write a program that shows the message “First fifteen days of the month” if the date is less than 16th of the month else shows “Last days of the month”. 
+
+// var date = new Date();
+// if (date.getDate() <= 15) {
+//     document.write("First fifteen days of the month")
+// }
+// else {
+//     document.write("Last days of the month")
+// }
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+//Assignment: 11
+//16. Write a program that determines the minutes since midnight, Jan. 1, 1970 and assigns it to a variable that hasn't been declared beforehand. Use any variable you like to represent the Date object.
+
+// var date = new Date();
+
+// document.write("Current Date: " + date + "<br />Elapsed Milliseconds since Jan 1 1970: " + date.getTime() + "<br />Elapsed Minutes since Jan 1 1970: " + new Date("January 1, 1970").getTime() - new Date().getTime() / (1000 * 60 * 60 * 24));
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+//Assignment: 12
+//17. Write a program that tests whether it's before noon and alert “Its AM” else “its PM”. 
+
+// var date = new Date().getHours();
+// if (date < 12) {
+//     document.write("Its AM");
+// }
+// else {
+//     document.write("Its PM");
+// }
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+//Assignment: 12
+//18. Write a program that creates a Date object for the last day of the last month of 2020 and assigns it to variable named laterDate   
+
+// var a = new Date("December 31, 2020");
+// document.write(a);
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+//Assignment: 13
+//19. Create a date object of the starting date of this Ramadan and alert the number of days past since 1st Ramadan?  Note: 1st Ramadan was on June 18, 2015   (ramazan === 2017 year).
+
+// var date = new Date("January 1, 2017").getTime() - new Date().getTime();
+// var daysGone = Math.floor(date / (1000 * 60 * 60 * 24));
+// document.write(daysGone + " Days gone since 2017");
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+//Assignment: 14
+//23. Write a program to ask the user about his age. Calculate and show his birth year in your browser.
+
+// var age = prompt("Enter your age...");
+// var currentYear = new Date().getFullYear();
+// var birthYear = currentYear - age;
+// document.write("Your Birth year is " + birthYear);
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+//Assignment: 15
+//24. Write a program to generate your K-Electric bill in your browser. All the amounts should be rounded off to 2 decimal places. Display the following fields: a. Customer Name b. Current Month c. Number of units d. Charges per unit e. Net Amount Payable (within Due Date) f. Late Payment Surcharge g. Gross Amount Payable (after Due Date) 
+
+var userInputName = prompt("Enter your Name...");
+var date = new Date();
+var units = 500;
+var rate = 16;
+var cost = units * rate + 500;
+document.write("<b>K-Electric Bill</b><br /><br />Customer Name: " + userInputName + "<br />Month: " + date.getMonth() + "<br />Number of Units: " + units + "<br />Charges per unit: " + rate + "<br /><br />Net Amount Payable (within due date): " + (units * rate) + "<br />Late payment charges: 500 <br />Gross amount payable (after due date): " + cost );
