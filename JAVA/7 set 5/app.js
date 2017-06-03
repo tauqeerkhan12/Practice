@@ -67,20 +67,58 @@
 //Assignment 03:
 //function ,takes a word and return .and num of vovels chracters and not char.
 
-var vowevls = 0;
-var notVowels;
-function identifier(a) {
-    var vol = ["a", "e", "i", "o", "u"]
-     for (var i = 0; i < a.length; i++) {
-         for (var j = 0; j < vol.length; j++) {
-             if (a.charAt(i) === vol[j]) {
-                 a = a.replace(a.charAt(i), "");
-                 vowevls++;
+// var vowevls = 0;
+// var notVowels;
+// function identifier(a) {
+//     var vol = ["a", "e", "i", "o", "u"]
+//      for (var i = 0; i < a.length; i++) {
+//          for (var j = 0; j < vol.length; j++) {
+//              if (a.charAt(i) === vol[j]) {
+//                  a = a.replace(a.charAt(i), "");
+//                  vowevls++;
                  
-             }
-         }
-     }
-     return a;
-}
-var userInput = prompt("Enter any word...");
-document.write("Word without vowel: " + identifier(userInput) + "<br />Number of vowels in word: " + vowevls)
+//              }
+//          }
+//      }
+//      return a;
+// }
+// var userInput = prompt("Enter any word...");
+// document.write("Word without vowel: " + identifier(userInput) + "<br />Number of vowels in word: " + vowevls);
+
+
+//--------------------------------------------------------------------------------------------------------------------------
+
+//Assignment 04:
+//find longest word from array given by user.
+
+// function longestWord(words) {
+//     if (words[0].length > words[1].length && words[0].length > words[2].length) {
+//         document.write(words[0] + " is the longest word.")
+//     }
+//     else if (words[1].length > words[0].length && words[1].length > words[2].length) {
+//         document.write(words[1] + " is the longest word.")
+//     }
+//     else if (words[2].length > words[1].length && words[2].length > words[0].length) {
+//         document.write(words[2] + " is the longest word.")
+//     }
+//     else {document.write("2 or 3 words have same lengths")}
+// }
+// var words = [prompt("Enter word 1..."), prompt("Enter word 2..."), prompt("Enter word 3...")];
+// alert(longestWord());
+
+//--------------------------------------------------------------------------------------------------------------------------
+
+//Assignment 05:
+//write a function to calculate age by birth year.
+ 
+//  function ager(birthYear) {
+//      var currentYear = new Date().getFullYear();
+//      var age = currentYear - birthYear;
+//      return age;
+//  }
+//  var userInput = prompt("Enter your birth year...");
+//  alert("Your age is " + ager(userInput));
+
+//--------------------------------------------------------------------------------------------------------------------------
+
+//End//
