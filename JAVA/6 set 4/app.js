@@ -166,9 +166,13 @@
 //Assignment: 15
 //24. Write a program to generate your K-Electric bill in your browser. All the amounts should be rounded off to 2 decimal places. Display the following fields: a. Customer Name b. Current Month c. Number of units d. Charges per unit e. Net Amount Payable (within Due Date) f. Late Payment Surcharge g. Gross Amount Payable (after Due Date) 
 
-var userInputName = prompt("Enter your Name...");
-var date = new Date();
-var units = 500;
-var rate = 16;
-var cost = units * rate + 500;
-document.write("<b>K-Electric Bill</b><br /><br />Customer Name: " + userInputName + "<br />Month: " + date.getMonth() + "<br />Number of Units: " + units + "<br />Charges per unit: " + rate + "<br /><br />Net Amount Payable (within due date): " + (units * rate) + "<br />Late payment charges: 500 <br />Gross amount payable (after due date): " + cost );
+// var userInputName = prompt("Enter your Name...");
+// var date = new Date();
+// var units = 500;
+// var rate = 16;
+// var cost = units * rate + 500;
+// document.write("<b>K-Electric Bill</b><br /><br />Customer Name: " + userInputName + "<br />Month: " + date.getMonth() + "<br />Number of Units: " + units + "<br />Charges per unit: " + rate + "<br /><br />Net Amount Payable (within due date): " + (units * rate) + "<br />Late payment charges: 500 <br />Gross amount payable (after due date): " + cost );
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+//END//
