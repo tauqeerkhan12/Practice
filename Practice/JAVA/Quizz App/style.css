@@ -1,0 +1,96 @@
+body {
+    
+    font-family: Courier New, Courier, monospace;
+    display: flex;
+    flex-wrap: wrap;
+    color: #603813;
+    font-weight: bolder;
+    font-size: 1.5em;
+    background-color: #696a6b;
+    height: 100%;
+    word-spacing: -4px;
+}
+.invisible {
+    display: none;
+}
+.a1 {
+    font-family: inherit;
+    text-decoration: none;
+    color: rgb(96, 56, 19);
+    font-size: 2em;
+    position: absolute;
+    bottom: 75px;
+    right: 30px;
+    
+}
+.s1:hover {
+    text-decoration: underline;
+}
+.d-instructions {
+    margin: 3px auto;
+    width: 60%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f9d83c;
+}
+
+
+.heading-1 {
+    font-size: 1.3em;
+    display: inline;
+   
+}
+.d2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.d2 img {
+    margin-right: 10px;
+    height: 110px;
+    width: 110px;
+}
+.arrow {
+    height: 25px;
+    width: 85px;
+}
+.d3 {
+    margin: 25px 0px 10px 20px;
+}
+.p1 {
+    font-size: 0.8em;
+    text-align: center;
+}
+.a2 {
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: rgb(75, 185, 183);
+    color: rgb(23, 59, 58);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.a2:hover {
+    text-decoration: underline;
+}
+.d4 {
+    margin-top: 60px;
+    text-align: center;
+}
+.d5 {
+    margin: 40px auto;
+}
+.d5 img {
+    height: 8px;
+    width: 20px;
+    margin: 1px 2px 0px 60px;;
+}
+.p2 {
+    font-size: 0.65em;
+    line-height: 25px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+

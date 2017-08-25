@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IQ Quiz - here' begins</title>
+    <link rel="stylesheet" href="../style2.css">
+</head>
+<body>
+    <div class="main">
+    <div class="d1">
+        <h1 class="h1">Question <span class="num">1 </span></h1>
+         <p class="p1">Question <span class="num">1 </span> of 10</p>
+    </div>
+    <div class="d2">
+        <h2>
+            <span class="bluet num">1 </span><img src="../img/arrow.png">
+            <span id="question"> What's 17 ✕ 5?</span> 
+        </h2>
+    </div>
+    <div class="d3">
+        <p class="opt opt2 opt5" onclick="optClick('a');">A. <span class="opt1" id="a">85</span></p>
+        <p class="opt opt2 opt5" onclick="optClick('b');">B. <span class="opt1" id="b" >105</span></p>
+        <p class="opt opt3 opt5" onclick="optClick('c');">C. <span class="opt1"  id="c">97</span></p>
+        <p class="opt opt3 opt5" onclick="optClick('d');">D. <span class="opt1" id="d" >22</span></p>
+    </div>
+    <p class="p2 opt4 opt5" onclick="marksCounter(); questionChanger();" >>></p>
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>
